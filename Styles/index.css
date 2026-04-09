@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: "Inter", "Raleway";
+  font-optical-sizing: auto;
+  font-style: no normal;
+}
+main {
+  width: 100%;
+  min-height: 95vh;
+  background-color: #080808;
+}
+main header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main header nav {
+  background-color: #1b1b1b;
+  width:70%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 8px 8px;
+}
+main header nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+main header nav .links a {
+  text-decoration: none;
+  color: #9c9c9c;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+}
+main header nav .links a:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+}
+main header nav .links .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main section .herosection{
+min-height: 90vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 60px;
+}
+main section .herosection .herosectionhedding{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;  
+    max-width: 520px;
+}
+main section .herosection .herosectionhedding h1{
+    font-family:'Raleway';
+    font-size: 44px;
+    font-weight: 800;
+}
+main section .herosection .herosectionhedding p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #9C9C9C;
+    gap: 4px;
+    text-align: justify;
+}
+main section .herosection .herosectionhedding button{
+    width: fit-content;
+    background-color: #3F8E00;
+    border: 1px #62BA1B;
+    padding: 21px 64px;
+    display: flex;
+    gap: 10px;
+    font-family: 'Inter';
+    box-shadow: 0px 8px 30px 0 #3F8E0080;
+    border-radius: 4px;
+    color: #FFFFFF;
+    size: 16px;
+    font-weight: 700;
+}
+main section .herosection .herosectionhedding button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.2s ease-out;
+}
+main section .herosection .herosectionimage {
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+}
+main section .bottomofherosection .links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  min-width: 300px;
+}
