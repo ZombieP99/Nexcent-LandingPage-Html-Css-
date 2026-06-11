@@ -1,0 +1,1009 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+.maincontent {
+  width: 100%;
+  min-height: 92vh;
+  background-color: #f5f7fa;
+  margin-bottom: 70px;
+}
+.navbar {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+}
+.homelogo:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.navlinks ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.navlinks ul li a {
+  text-decoration: none;
+  color: #18191f;
+}
+.navlinks ul li a:hover {
+  cursor: pointer;
+  color: #4caf4f;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+.navbaractions {
+  display: flex;
+  gap: 14px;
+}
+.navbaractions .login {
+  padding: 10px 20px;
+  border: 1px none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.navbaractions .login a {
+  color: #4caf4f;
+  text-decoration: none;
+}
+.navbaractions .login a:hover {
+  cursor: pointer;
+  color: #18191f;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.navbaractions .signup button {
+  color: #fff;
+  border: 1px none;
+  padding: 10px 20px;
+  background-color: #4caf4f;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.navbaractions .signup button:hover {
+  cursor: pointer;
+  background-color: #f5f7fa;
+  color: #4caf4f;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75vh;
+  position: relative;
+}
+.heddingcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.heddingcontainer .hedding1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.heddingcontainer .hedding2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #4caf4f;
+}
+.heddingcontainer .primarybtncontainer {
+  font-size: 16px;
+  color: #717171;
+}
+.heddingcontainer .buttoncontainer {
+  margin-top: 20px;
+}
+.heddingcontainer .buttoncontainer button {
+  color: #fff;
+  border: 1px none;
+  padding: 10px 20px;
+  background-color: #4caf4f;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.heddingcontainer .buttoncontainer button:hover {
+  cursor: pointer;
+  cursor: pointer;
+  background-color: #f5f7fa;
+  color: #4caf4f;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.hero .dot {
+  position: absolute;
+  bottom: 1%;
+}
+
+.scendcontainer {
+  width: 100%;
+  min-height: 90vh;
+}
+.Clientssection {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.Clientssection .hedding {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.Clientssection .paragraph {
+  font-size: 16px;
+  color: #717171;
+}
+.Clientssection .clientslogo {
+  width: 100vw;
+}
+
+.communitysection {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.communitysection .hedding {
+  color: #4d4d4d;
+  text-align: center;
+  width: 32%;
+}
+.communitysection .paragraph {
+  color: #717171;
+  text-align: center;
+  font-size: 16px;
+}
+.communitysection .group {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 100px;
+  margin-top: 20px;
+}
+.communitysection .group .group1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid none;
+  border-radius: 8px;
+  padding: 24px 32px;
+  box-shadow: 0 2px 4px #abbed133;
+}
+.communitysection .group .group1 .hedding {
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.communitysection .group .group1 .paragraph {
+  color: #717171;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.communitysection .group .group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid none;
+  border-radius: 8px;
+  padding: 24px 32px;
+  box-shadow: 0 2px 4px #abbed133;
+}
+.communitysection .group .group2 .hedding {
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.communitysection .group .group2 .paragraph {
+  color: #717171;
+  text-align: center;
+  font-size: 16px;
+  width: 90%;
+}
+
+.communitysection .group .group3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid none;
+  border-radius: 8px;
+  padding: 24px 32px;
+  box-shadow: 0 2px 4px #abbed133;
+}
+.communitysection .group .group3 .hedding {
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.communitysection .group .group3 .paragraph {
+  color: #717171;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.thirdcontainer {
+  width: 100%;
+  min-height: 100vh;
+}
+.thirdcontainer .Pixelgrade {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.thirdcontainer .Pixelgrade .heddingPixelgrade {
+  width: 661px;
+}
+.thirdcontainer .heddingPixelgrade .hedding {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.thirdcontainer .Pixelgrade .heddingPixelgrade .hedding h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+  width: 90%;
+}
+.thirdcontainer .Pixelgrade .heddingPixelgrade .hedding p {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+}
+.thirdcontainer .Pixelgrade .heddingPixelgrade .hedding button {
+  border: 1px none;
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.thirdcontainer .Pixelgrade .heddingPixelgrade .hedding button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: #4caf4f;
+  width: fit-content;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+main {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f5f7fa;
+}
+main .business {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+main .business .firsthedding {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+main .business .scendhedding {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4caf4f;
+}
+main .business .paragraph {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+}
+main .icons {
+  display: flex;
+  gap: 40px;
+}
+main .icons .firstGroups {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+main .icons .firstGroups .icon1 {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+main .icons .firstGroups .icon1 .hedding .hedding1 {
+  font-weight: 700;
+  color: #4d4d4d;
+}
+main .icons .firstGroups .icon1 .hedding .paragraph {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+}
+main .icons .firstGroups .icon2 {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+main .icons .firstGroups .icon2 .hedding .hedding1 {
+  font-weight: 700;
+  color: #4d4d4d;
+}
+main .icons .firstGroups .icon2 .hedding .paragraph {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+}
+main .icons .scendGroups {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+main .icons .scendGroups .icon3 {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+main .icons .scendGroups .icon3 .hedding .hedding1 {
+  font-weight: 700;
+  color: #4d4d4d;
+}
+main .icons .scendGroups .icon3 .hedding .paragraph {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+}
+main .icons .scendGroups .icon4 {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+main .icons .scendGroups .icon4 .hedding .hedding1 {
+  font-weight: 700;
+  color: #4d4d4d;
+}
+main .icons .scendGroups .icon4 .hedding .paragraph {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+}
+.fourcontainer {
+  width: 100%;
+  min-height: 100vh;
+}
+.fourcontainer .calender {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 45px;
+  margin-bottom: 100px;
+}
+.fourcontainer .calender .designhedding {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.fourcontainer .calender .designhedding .hedding {
+  font-weight: 600;
+  color: #4d4d4d;
+  width: 90%;
+}
+.fourcontainer .calender .designhedding .paragraph {
+  font-weight: 400;
+  width: 601px;
+  color: #717171;
+}
+.fourcontainer .calender .designhedding button {
+  border: 1px none;
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.fourcontainer .calender .designhedding button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: #4caf4f;
+  width: fit-content;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.fourcontainer .customers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 55vh;
+  background-color: #f5f7fa;
+}
+.customers .timsmithhedding {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+  justify-content: center;
+}
+.customers .timsmithhedding .paragraph p {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 500;
+}
+.customers .timsmithhedding .Tim {
+  text-decoration: none;
+  color: #4caf4f;
+  font-weight: 600;
+  font-size: 20px;
+}
+.customers .timsmithhedding .Tim:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.customers .timsmithhedding .Boat {
+  color: #89939e;
+  font-weight: 400;
+  font-size: 16px;
+}
+.customers .timsmithhedding .logos {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.customers .timsmithhedding .logos a {
+  text-decoration: none;
+  color: #4caf4f;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+}
+.customers .timsmithhedding .logos a:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+}
+.customers .timsmithhedding .logos a img {
+  position: absolute;
+  bottom: -1px;
+}
+.fivecontainer {
+  width: 100%;
+  min-height: 80vh;
+}
+.fivecontainer .marketing {
+  min-height: 50vh;
+  width: 100%;
+  margin-top: 5%;
+}
+.fivecontainer .marketing .hedding {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.fivecontainer .marketing .hedding h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.fivecontainer .marketing .hedding p {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  width: 628px;
+  text-align: center;
+}
+.fivecontainer .marketing .marketingcards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  min-width: 50%;
+  margin-top: 20px;
+}
+.fivecontainer .marketing .marketingcards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  position: relative;
+}
+.fivecontainer .marketing .marketingcards .card .cardhedding {
+  color: #717171;
+  border: 1px none;
+  border-radius: 8px;
+  padding: 24px 32px;
+  box-shadow: 0 8px 16px #abbed133;
+  background-color: #f5f7fa;
+  position: absolute;
+  top: 190px;
+  gap: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fivecontainer .marketing .marketingcards .card .cardhedding p {
+  color: #717171;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.fivecontainer .marketing .marketingcards .card .cardhedding a {
+  text-decoration: none;
+  color: #4caf4f;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+}
+.fivecontainer .marketing .marketingcards .card .cardhedding a:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+  font-weight: bold;
+}
+.fivecontainer .marketing .marketingcards .card .cardhedding a img {
+  position: absolute;
+  bottom: -1px;
+}
+.sixcontainer {
+  width: 100%;
+}
+.sixcontainer .firstsectionfooter {
+  width: 100%;
+  background-color: #f5f7fa;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sixcontainer .firstsectionfooter .heddingfooter {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-direction: column;
+}
+.sixcontainer .firstsectionfooter .heddingfooter h1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #4d4d4d;
+  width: 787px;
+  text-align: center;
+}
+.sixcontainer .firstsectionfooter .heddingfooter button {
+  color: #fff;
+  border: 1px none;
+  padding: 14px 32px 14px 32px;
+  background-color: #4caf4f;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.sixcontainer .firstsectionfooter .heddingfooter button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  color: #4caf4f;
+  background-color: #f5f7fa;
+  font-weight: bold;
+}
+.bottomfootercontainer {
+  width: 100%;
+  min-height: 50vh;
+  background-color: #263238;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+.bottomfootercontainer .firestsectionfooter {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 40px;
+}
+.bottomfootercontainer .firestsectionfooter .paragraph {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.bottomfootercontainer .firestsectionfooter .imagelinks {
+  display: flex;
+  gap: 16px;
+}
+.bottomfootercontainer .scenedfooter {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 100px;
+}
+.bottomfootercontainer .scenedfooter .scendsectionfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: start;
+}
+.bottomfootercontainer .scenedfooter .scendsectionfooter h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.bottomfootercontainer .scenedfooter .scendsectionfooter .firstlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.bottomfootercontainer .scenedfooter .scendsectionfooter .firstlinks a {
+  text-decoration: none;
+  color: #f5f7fa;
+  font-size: 14px;
+  font-weight: 300;
+}
+.bottomfootercontainer .scenedfooter .scendsectionfooter .firstlinks a:hover {
+  cursor: pointer;
+  color: #4caf4f;
+  transition: all 0.3s ease;
+}
+.bottomfootercontainer .scenedfooter .thirdsectionfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: start;
+}
+.bottomfootercontainer .scenedfooter .thirdsectionfooter h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.bottomfootercontainer .scenedfooter .thirdsectionfooter .secondlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.bottomfootercontainer .scenedfooter .thirdsectionfooter .secondlinks a {
+  text-decoration: none;
+  color: #f5f7fa;
+  font-size: 14px;
+  font-weight: 300;
+}
+.bottomfootercontainer .scenedfooter .thirdsectionfooter .secondlinks a:hover {
+  cursor: pointer;
+  color: #4caf4f;
+  transition: all 0.3s ease;
+}
+.bottomfootercontainer .scenedfooter .fourthsectionfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: start;
+}
+.bottomfootercontainer .scenedfooter .fourthsectionfooter h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.bottomfootercontainer .scenedfooter .fourthsectionfooter .inputcontainer1 {
+  position: relative;
+}
+.bottomfootercontainer
+  .scenedfooter
+  .fourthsectionfooter
+  .inputcontainer1
+  input {
+  padding: 10px 20px;
+  border: 1px none;
+  border-radius: 8px;
+  background-color: #454e54;
+}
+.bottomfootercontainer
+  .scenedfooter
+  .fourthsectionfooter
+  .inputcontainer1
+  input::placeholder {
+  color: white;
+}
+.bottomfootercontainer
+  .scenedfooter
+  .fourthsectionfooter
+  .inputcontainer1
+  a
+  img {
+  position: absolute;
+  bottom: 9px;
+  right: 10px;
+}
+.bottomfootercontainer
+  .scenedfooter
+  .fourthsectionfooter
+  .inputcontainer1
+  a
+  img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+/* ============================================================
+   👇 RESPONSIVE STYLES — بقلم المساعد (لا تعدل الكود فوق)
+   ============================================================ */
+
+/* --- Tablet: max-width 1024px --- */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0 24px;
+    height: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .navlinks ul {
+    gap: 24px;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 24px;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .communitysection .hedding {
+    width: 60%;
+  }
+
+  .communitysection .group {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .thirdcontainer .Pixelgrade {
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .thirdcontainer .Pixelgrade .heddingPixelgrade {
+    width: 100%;
+  }
+  main {
+    height: auto;
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .fourcontainer .calender {
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .fourcontainer .calender .designhedding .paragraph {
+    width: 100%;
+  }
+
+  .fourcontainer .customers {
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .customers .timsmithhedding {
+    width: 100%;
+    align-items: center;
+  }
+
+  .customers .timsmithhedding .logos {
+    justify-content: center;
+  }
+  .fivecontainer .marketing .hedding p {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .sixcontainer .firstsectionfooter .heddingfooter h1 {
+    font-size: 42px;
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .bottomfootercontainer {
+    flex-direction: column;
+    padding: 40px 24px;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .bottomfootercontainer .scenedfooter {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+
+/* --- Mobile: max-width 768px --- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .navlinks {
+    order: 3;
+    width: 100%;
+  }
+
+  .navlinks ul {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbaractions {
+    order: 2;
+  }
+
+  .hero {
+    padding: 32px 16px;
+  }
+
+  .heddingcontainer .hedding1,
+  .heddingcontainer .hedding2 {
+    font-size: 22px;
+  }
+
+  .heddingcontainer .primarybtncontainer {
+    font-size: 14px;
+  }
+
+  .communitysection .hedding {
+    width: 85%;
+  }
+
+  .communitysection .group {
+    gap: 24px;
+  }
+
+  .communitysection .group .group1,
+  .communitysection .group .group2,
+  .communitysection .group .group3 {
+    width: 90%;
+  }
+
+  main .business .firsthedding,
+  main .business .scendhedding {
+    font-size: 26px;
+  }
+
+  main .icons {
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+
+  .thirdcontainer .Pixelgrade .heddingPixelgrade .hedding h1 {
+    font-size: 26px;
+    width: 100%;
+  }
+
+  .fourcontainer .calender .designhedding .paragraph {
+    width: 100%;
+  }
+
+  .fivecontainer .marketing .hedding h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .fivecontainer .marketing .marketingcards .card {
+    width: 90%;
+  }
+
+  .sixcontainer .firstsectionfooter .heddingfooter h1 {
+    font-size: 28px;
+    padding: 0 16px;
+  }
+
+  .bottomfootercontainer .scenedfooter {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+/* --- Small Mobile: max-width 480px --- */
+@media (max-width: 480px) {
+  .navlinks ul {
+    gap: 10px;
+  }
+
+  .navlinks ul li a {
+    font-size: 13px;
+  }
+
+  .navbaractions .login,
+  .navbaractions .signup button {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .heddingcontainer .hedding1,
+  .heddingcontainer .hedding2 {
+    font-size: 18px;
+  }
+
+  .sixcontainer .firstsectionfooter .heddingfooter h1 {
+    font-size: 22px;
+  }
+
+  .bottomfootercontainer {
+    padding: 32px 16px;
+  }
+}
+/* ============================================================
+   ☝️ نهاية الـ Responsive Styles
+   ============================================================ */
